@@ -1,0 +1,58 @@
+# Secrets and local runtime config
+.env
+.env.*
+!.env.example
+configs/schema_map.yml
+configs/schema_map.generated.*
+*.key
+*.pem
+*.p12
+*.pgpass
+pgpass*
+secrets/
+credentials/
+Latent Insider Information Shocks.md
+
+# Proprietary or generated research data
+artifacts/raw/
+artifacts/processed/
+artifacts/intermediate/
+artifacts/models/
+artifacts/cache/
+artifacts/taq/
+artifacts/wrds/
+data/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.sqlite
+*.db
+
+# Logs and manifests with runtime paths/counts
+logs/
+*.log
+*.out
+*.err
+manifests/
+
+# Python/cache/build outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+site/
+docs/artifacts/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

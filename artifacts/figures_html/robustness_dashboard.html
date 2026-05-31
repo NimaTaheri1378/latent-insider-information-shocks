@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Robustness Dashboard</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, sans-serif; margin: 32px; color: #1f2933; }
+    h1 { font-size: 28px; margin-bottom: 8px; }
+    .note { color: #52606d; max-width: 900px; }
+    svg { width: min(100%, 1100px); height: 520px; border: 1px solid #d9e2ec; background: #fff; }
+    button, select, label { font: inherit; margin: 6px 8px 12px 0; }
+    table { border-collapse: collapse; margin-top: 16px; font-size: 14px; }
+    th, td { border: 1px solid #d9e2ec; padding: 6px 9px; text-align: right; }
+    th:first-child, td:first-child { text-align: left; }
+  </style>
+</head>
+<body>
+<h1>Robustness Dashboard</h1><p class='note'>Public robustness table generated from cached proposal-grade outputs.</p><table><thead><tr><th>test</th><th>status</th><th>months</th><th>mean_long_short</th><th>t_stat</th></tr></thead><tbody>
+<tr><td>main_liis_net</td><td>ok</td><td>203</td><td>0.003796116941884537</td><td>1.9413838259656375</td></tr>
+<tr><td>buys_only</td><td>ok</td><td>203</td><td>0.0021663470989961207</td><td>1.229737244956857</td></tr>
+<tr><td>sells_only</td><td>ok</td><td>203</td><td>-0.000598194310424025</td><td>-0.31037463112894315</td></tr>
+<tr><td>ceo_cfo_only</td><td>ok</td><td>203</td><td>0.002209354327159324</td><td>1.123825725900835</td></tr>
+<tr><td>non_10b5_only</td><td>ok</td><td>203</td><td>0.0042402412682826605</td><td>2.2029684939016483</td></tr>
+<tr><td>open_market_only</td><td>ok</td><td>203</td><td>0.002816520606767321</td><td>1.5010797908387974</td></tr>
+<tr><td>amendment_strict</td><td>ok</td><td>203</td><td>0.003809582523507546</td><td>1.921624561469216</td></tr>
+<tr><td>liquid_large_70pct</td><td>ok</td><td>203</td><td>0.00019164885167413358</td><td>0.09383595489816639</td></tr>
+<tr><td>placebo_shuffle_within_month</td><td>ok</td><td>203</td><td>0.0013357993250429805</td><td>1.2825404595824432</td></tr>
+<tr><td>lookahead_transaction_date_alignment</td><td>ok</td><td>251</td><td>0.004839515182076114</td><td>2.8835818933925026</td></tr>
+</tbody></table>
+
+</body>
+</html>

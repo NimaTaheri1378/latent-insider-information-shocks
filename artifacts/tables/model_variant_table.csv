@@ -1,0 +1,6 @@
+model,role,status
+rules_only,transparent baseline,available
+elastic_net_logistic,sparse benchmark,ok
+lightgbm,main tabular workhorse,ok_lightgbm_cpu
+torch_gpu_mlp,GPU sequence/tabular extension,ok
+blend,production score,lightgbm_cpu_torch_gpu_mlp_blend

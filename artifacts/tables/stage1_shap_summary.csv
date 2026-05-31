@@ -1,0 +1,16 @@
+feature,mean_abs_shap
+log_abs_dollar,2.8747825449958047
+is_open_market,2.1718212402045705
+log_derivative_companion,1.3584227995817555
+is_mechanical_code,0.19610455089205286
+has_derivative_companion,0.1804580328916065
+is_10b5,0.09626820283411676
+is_amended_record,0.09330205518833727
+missing_price,0.05896588847280427
+missing_shares,0.022154257478820515
+log_value_to_holdings,0.01979711126744596
+is_option_or_derivative_code,0.008579371681934051
+filing_lag_days_clip,0.00841363070038627
+is_ceo_cfo,0.007928584609303343
+is_tax_or_disposition_code,0.006691802721214619
+post_2023_rule10b5_era,0.0

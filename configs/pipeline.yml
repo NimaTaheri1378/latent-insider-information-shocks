@@ -1,0 +1,32 @@
+project_name: latent_insider_information_shocks
+sample:
+  start_date: "2004-01-01"
+  end_date: "2025-12-31"
+  holdout_start: "2026-01-01"
+  holdout_end: "2026-05-31"
+wrds:
+  max_workers: 3
+  connect_timeout_seconds: 180
+  shard_retry_count: 1
+  libraries:
+    insiders: tr_insiders
+    crsp: crsp
+    comp: comp
+    taq_candidates:
+      - taqmsec
+      - taqms
+      - taq
+      - taqm
+outputs:
+  figure_formats:
+    - pdf
+    - svg
+    - png
+models:
+  temporal_split:
+    train_end: "2016-12-31"
+    validation_start: "2017-01-01"
+    validation_end: "2020-12-31"
+    oos_start: "2021-01-01"
+    oos_end: "2025-12-31"
+    final_holdout_start: "2026-01-01"

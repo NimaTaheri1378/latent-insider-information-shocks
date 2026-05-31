@@ -1,0 +1,13 @@
+site_name: Latent Insider Information Shocks
+site_description: Public documentation for the LIIS research pipeline.
+theme:
+  name: mkdocs
+nav:
+  - Home: index.md
+  - Data Access: data.md
+  - Pipeline: pipeline.md
+  - Results: results.md
+  - Figures: figures.md
+  - Proposal Coverage: proposal_coverage.md
+  - Reproducibility: reproducibility.md
+  - Run Status: run_status.md

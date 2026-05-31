@@ -1,0 +1,7 @@
+flowchart LR
+    A[Schema audit] --> B[WRDS extracts]
+    B --> C[Issuer mapping and cleaning]
+    C --> D[Transaction information model]
+    D --> E[Firm-month LIIS panel]
+    E --> F[Asset-pricing tests]
+    F --> G[Figures and public-safe docs]

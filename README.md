@@ -1,6 +1,11 @@
 # Latent Insider Information Shocks
 
 [![CI](https://github.com/NimaTaheri1378/latent-insider-information-shocks/actions/workflows/ci.yml/badge.svg)](https://github.com/NimaTaheri1378/latent-insider-information-shocks/actions/workflows/ci.yml)
+[![Pages](https://github.com/NimaTaheri1378/latent-insider-information-shocks/actions/workflows/pages.yml/badge.svg)](https://github.com/NimaTaheri1378/latent-insider-information-shocks/actions/workflows/pages.yml)
+[![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](requirements.txt)
+[![Research](https://img.shields.io/badge/research-quant%20finance-0B3D91)](docs/results.md)
+[![Data](https://img.shields.io/badge/data-WRDS%20%7C%20CRSP%20%7C%20Compustat-4B5563)](DATA_ACCESS.md)
+[![Models](https://img.shields.io/badge/models-LightGBM%20%2B%20PyTorch-EE4C2C)](artifacts/tables/model_variant_table.csv)
 
 ## Can insider filings predict returns after we remove the routine trades?
 
@@ -147,6 +152,3 @@ python scripts/liis_pipeline.py --root . --phase figures
 ```
 
 On Amarel, use the SLURM helpers in [`jobs/`](jobs/).
-
-
-

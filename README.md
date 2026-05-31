@@ -148,11 +148,5 @@ python scripts/liis_pipeline.py --root . --phase figures
 
 On Amarel, use the SLURM helpers in [`jobs/`](jobs/).
 
-## Honest Limitations
 
-LightGBM GPU training was attempted, but the installed LightGBM build did not
-include GPU tree learner support. The GPU branch is the A100 PyTorch MLP, which
-trained successfully on 3,000,000 transaction rows. TAQ schemas were visible,
-but sample TAQ queries returned permission errors, so this release uses
-CRSP-based implementation and cost support rather than TAQ calibration.
 

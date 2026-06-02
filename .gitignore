@@ -50,6 +50,12 @@ dist/
 *.egg-info/
 site/
 docs/artifacts/
+tmp/
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
 
 # OS/editor noise
 .DS_Store
